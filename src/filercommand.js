@@ -2,8 +2,6 @@ import Command from "@ckeditor/ckeditor5-core/src/command";
 import Filer from "@packaged-ui/filer/src/filer";
 import Modal from "@packaged-ui/modal/src/modal";
 
-import './style.css';
-
 export default class FilerCommand extends Command
 {
   constructor(editor)
