@@ -1,6 +1,6 @@
 {
   "name": "@packaged-ui/ckeditor5-filer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "repository": "git@github.com:packaged-ui/ckeditor5-filer.git",
   "author": "Tom Kay <oridan82@gmail.com>",
@@ -9,7 +9,7 @@
     "@ckeditor/ckeditor5-core": "^12.1.0",
     "@ckeditor/ckeditor5-ui": "^12.1.0",
     "@ckeditor/ckeditor5-widget": "^11.0.1",
-    "@packaged-ui/filer": "^0.0.5",
+    "@packaged-ui/filer": "^0.0.6",
     "@packaged-ui/modal": "^0.0.5"
   },
   "devDependencies": {

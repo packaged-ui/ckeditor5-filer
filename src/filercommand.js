@@ -11,6 +11,7 @@ export default class FilerCommand extends Command
     this.modal = new Modal();
 
     let filerConfig = editor.config.get('filer') || {};
+    filerConfig.autoOpen = false;
     filerConfig.container = this.modal.content;
     filerConfig.itemSelected = (item) =>
     {
@@ -44,6 +45,7 @@ export default class FilerCommand extends Command
   execute()
   {
     this.modal.show();
+    this.filer.open('');
   }
 
   insertLink(item)
