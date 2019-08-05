@@ -1,6 +1,6 @@
 {
   "name": "@packaged-ui/ckeditor5-filer",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "src/filer.js",
   "repository": "git@github.com:packaged-ui/ckeditor5-filer.git",
   "author": "Tom Kay <oridan82@gmail.com>",
