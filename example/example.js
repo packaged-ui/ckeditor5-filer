@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function ()
   ClassicEditor.create(
     document.getElementById('layout-example'),
     {
-      filer: {url: '/example/filer.php'},
+      filer: {url: '/filer.php'},
       plugins: [Essentials, Bold, Link, Italic, Paragraph, Image, Filer],
       toolbar: ['bold', 'italic', 'link', 'filer'],
       language: 'en'

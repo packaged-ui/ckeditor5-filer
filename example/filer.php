@@ -2,9 +2,9 @@
 
 header('Content-type: application/json');
 
-$docRoot = dirname(__DIR__);
+$docRoot = __DIR__;
 
-$rel = '/example/filer';
+$rel = '/filer';
 $topLevel = $docRoot . $rel;
 
 $path = (!empty($_REQUEST['path']) ? '/' . ltrim($_REQUEST['path'], '/') : '');
